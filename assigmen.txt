@@ -1,0 +1,24 @@
+package javabasic;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Map<Integer,String> Map = new HashMap();
+       Map.put(5,"Kumar");
+       Map.put(1, "Suji");
+       Map.put(10,"Ganesh");
+       Map.put(2,"Mary");
+       System.out.println(Map.get(10));
+       System.out.println(Map);
+       
+	}
+
+}
+
+expected output:
+Ganesh
+{1=Suji, 2=Mary, 5=Kumar, 10=Ganesh}
