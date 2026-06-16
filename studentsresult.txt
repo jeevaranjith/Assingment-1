@@ -1,0 +1,43 @@
+package javabasic;
+
+import java.util.Scanner;
+
+
+public class StResult {
+public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.print("Enter Roll NO: ");
+		int rollNo = sc.nextInt();
+		
+		System.out.print("Enter Name: ");
+		String name = sc.next();
+		
+		System.out.print("Enter Initial: ");
+		String intial = sc.next();
+		
+		System.out.print("Enter Subject: ");
+		String subject = sc.next();
+		
+		System.out.print("Enter Mark: ");
+		int mark = sc.nextInt();
+		
+		
+		String result = (mark > 49) ? "Pass" : "Fail";
+				
+		System.out.println(name+" "+intial+" "+mark+" "+result);
+		
+		
+		sc.close();
+        }
+    } 
+
+		
+output:
+Enter Name: Jeeva
+Enter Initial: R
+Enter Subject: Maths
+Enter Mark: 75
+Jeeva R 75 Pass
+		
